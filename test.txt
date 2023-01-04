@@ -1,0 +1,18 @@
+string[] fruits = ["banana", "apple"]
+1 + 2 + 3 * 4
+
+fruits.each do |z|
+    1 * 2 / 3
+    int x = 4
+end
+
+html do
+    body do
+        div do
+            !id = "car"
+            "something"
+            string[] fruits = ["banana", "apple"]
+            1234
+        end
+    end
+end
