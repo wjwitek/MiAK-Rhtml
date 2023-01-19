@@ -1,0 +1,21 @@
+html do
+    body do
+        div do
+            !id = "car"
+            !name = "test"
+            "something"
+        end
+        img do
+        end
+        for [1, 10].each do
+            h1 do
+                iter
+                "car"
+                iter
+            end
+        end
+        div do
+            "hey"
+        end
+    end
+end
