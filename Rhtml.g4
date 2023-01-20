@@ -6,7 +6,7 @@ ruby_expr: tag_expr | for_loop;
 
 // loop
 range: LEFT INT DOTS INT RIGHT;
-for_loop: FOR (range | int_list | string_list)'.' EACH DO ruby_expr+ END;
+for_loop: FOR (range | int_list | string_list)'.' EACH DO (ruby_expr | list_inside)+ END;
 
 // general ruby
 int_list: '[' int_elems? ']';
@@ -19,15 +19,19 @@ string_elems: STRING ( ',' STRING)*;
 
 html_expr: HTML DO main_tag_expr* END;
 
-main_tag_expr: MAIN_TAG DO (tag_expr | ruby_expr)* END;
+main_tag_expr: MAIN_TAG DO (tag_expr | ruby_expr | list)* END;
 
 tag_expr: (DOUBLE_TAG DO tag_option_expr* (tag_inside | tag_expr)* END) | (SINGLE_TAG DO tag_option_expr* END);
 
-tag_inside: (string_int_inside | ruby_expr | ITER);
+tag_inside: (string_int_inside | ruby_expr | ITER | list);
 
 string_int_inside: STRING | INT;
 
 tag_option_expr: TAG_OPTION '=' STRING;
+
+list: LIST DO (for_loop | list_inside)* END;
+
+list_inside: LIST_ITEM DO (string_int_inside | ITER) END;
 
 // tokens
 // general tokens
@@ -36,6 +40,10 @@ DO : 'do';
 
 // html related tokens
 HTML : 'html';
+
+// lists
+LIST: 'ul' | 'ol';
+LIST_ITEM: 'li';
 
 // tags
 MAIN_TAG: 'body' | 'footer' | 'head' | 'main' | 'nav';

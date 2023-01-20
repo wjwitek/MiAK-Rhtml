@@ -17,5 +17,12 @@ html do
         div do
             "hey"
         end
+        ul do
+            for ["b", "c"].each do
+                li do
+                    iter
+                end
+            end
+        end
     end
 end

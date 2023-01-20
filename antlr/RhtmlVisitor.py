@@ -4,7 +4,7 @@ from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .RhtmlParser import RhtmlParser
 else:
-    from RhtmlParser import RhtmlParser
+    from antlr.RhtmlParser import RhtmlParser
 
 
 # This class defines a complete generic visitor for a parse tree produced by RhtmlParser.
@@ -123,6 +123,21 @@ class RhtmlVisitor(ParseTreeVisitor):
             result = ctx.INT()
 
         self.file.write("\t" * (self.tabs(ctx) - 1) + f"{result}\n")
+
+    # Visit a parse tree produced by RhtmlParser#list.
+    def visitList(self, ctx: RhtmlParser.ListContext):
+        self.file.write("\t" * self.tabs(ctx) + f"<{ctx.LIST()}>\n")
+        self.visitChildren(ctx)
+        self.file.write("\t" * self.tabs(ctx) + f"</{ctx.LIST()}>\n")
+
+        # Visit a parse tree produced by RhtmlParser#list_inside.
+    def visitList_inside(self, ctx: RhtmlParser.List_insideContext):
+        self.file.write("\t" * (self.tabs(ctx) + 1) + f"<{ctx.LIST_ITEM()}>")
+        if ctx.string_int_inside() is not None:
+            self.visitChildren(ctx)
+        else:
+            self.file.write(self.iter)
+        self.file.write(f"</{ctx.LIST_ITEM()}>\n")
 
     def tabs(self, ctx):
         return ctx.depth() - 2 * (1 + self.for_count) - 1

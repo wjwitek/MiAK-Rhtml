@@ -134,5 +134,23 @@ class RhtmlListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by RhtmlParser#list.
+    def enterList(self, ctx:RhtmlParser.ListContext):
+        pass
+
+    # Exit a parse tree produced by RhtmlParser#list.
+    def exitList(self, ctx:RhtmlParser.ListContext):
+        pass
+
+
+    # Enter a parse tree produced by RhtmlParser#list_inside.
+    def enterList_inside(self, ctx:RhtmlParser.List_insideContext):
+        pass
+
+    # Exit a parse tree produced by RhtmlParser#list_inside.
+    def exitList_inside(self, ctx:RhtmlParser.List_insideContext):
+        pass
+
+
 
 del RhtmlParser
