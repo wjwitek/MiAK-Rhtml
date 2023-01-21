@@ -9,6 +9,10 @@ else:
 
 # This class defines a complete generic visitor for a parse tree produced by RhtmlParser.
 
+def tabs(ctx):
+    return ctx.depth() // 2 - 1
+
+
 class RhtmlVisitor(ParseTreeVisitor):
 
     def __init__(self, output_file):
@@ -24,10 +28,6 @@ class RhtmlVisitor(ParseTreeVisitor):
         self.file = open(self.output_name, "w")
         self.visitChildren(ctx)
         self.file.close()
-
-    # Visit a parse tree produced by RhtmlParser#ruby_expr.
-    def visitRuby_expr(self, ctx: RhtmlParser.Ruby_exprContext):
-        self.visitChildren(ctx)
 
     # Visit a parse tree produced by RhtmlParser#range.
     @staticmethod
@@ -97,17 +97,17 @@ class RhtmlVisitor(ParseTreeVisitor):
             options += f" {result[0]}={result[1]}"
 
         if ctx.DOUBLE_TAG() is not None:
-            self.file.write("\t" * self.tabs(ctx) + f"<{ctx.DOUBLE_TAG()}{options}>\n")
+            self.file.write("\t" * tabs(ctx) + f"<{ctx.DOUBLE_TAG()}{options}>\n")
             self.visitChildren(ctx)
-            self.file.write("\t" * self.tabs(ctx) + f"</{ctx.DOUBLE_TAG()}>\n")
+            self.file.write("\t" * tabs(ctx) + f"</{ctx.DOUBLE_TAG()}>\n")
         else:
-            self.file.write("\t" * self.tabs(ctx) + f"<{ctx.SINGLE_TAG()}{options}")
+            self.file.write("\t" * tabs(ctx) + f"<{ctx.SINGLE_TAG()}{options}")
             self.file.write('>\n')
 
     # Visit a parse tree produced by RhtmlParser#tag_inside.
     def visitTag_inside(self, ctx: RhtmlParser.Tag_insideContext):
         if ctx.ITER() is not None:
-            self.file.write("\t" * self.tabs(ctx) + f"{self.iter}\n")
+            self.file.write("\t" * tabs(ctx) + f"{self.iter}\n")
         return self.visitChildren(ctx)
 
     # Visit a parse tree produced by RhtmlParser#tag_option_expr.
@@ -122,25 +122,22 @@ class RhtmlVisitor(ParseTreeVisitor):
         else:
             result = ctx.INT()
 
-        self.file.write("\t" * (self.tabs(ctx) - 1) + f"{result}\n")
+        self.file.write("\t" * tabs(ctx) + f"{result}\n")
 
     # Visit a parse tree produced by RhtmlParser#list.
     def visitList(self, ctx: RhtmlParser.ListContext):
-        self.file.write("\t" * self.tabs(ctx) + f"<{ctx.LIST()}>\n")
+        self.file.write("\t" * tabs(ctx) + f"<{ctx.LIST()}>\n")
         self.visitChildren(ctx)
-        self.file.write("\t" * self.tabs(ctx) + f"</{ctx.LIST()}>\n")
+        self.file.write("\t" * tabs(ctx) + f"</{ctx.LIST()}>\n")
 
         # Visit a parse tree produced by RhtmlParser#list_inside.
     def visitList_inside(self, ctx: RhtmlParser.List_insideContext):
-        self.file.write("\t" * (self.tabs(ctx) + 1) + f"<{ctx.LIST_ITEM()}>")
+        self.file.write("\t" * tabs(ctx) + f"<{ctx.LIST_ITEM()}>")
         if ctx.string_int_inside() is not None:
             self.visitChildren(ctx)
         else:
             self.file.write(self.iter)
         self.file.write(f"</{ctx.LIST_ITEM()}>\n")
-
-    def tabs(self, ctx):
-        return ctx.depth() - 2 * (1 + self.for_count) - 1
 
 
 del RhtmlParser

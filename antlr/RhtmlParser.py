@@ -10,66 +10,63 @@ else:
 
 def serializedATN():
     return [
-        4,1,25,177,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,21,167,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,1,0,5,0,34,8,0,10,0,12,0,37,9,0,1,0,1,0,1,0,
-        1,1,1,1,3,1,44,8,1,1,2,1,2,1,2,1,2,1,2,1,2,1,3,1,3,1,3,1,3,3,3,56,
-        8,3,1,3,1,3,1,3,1,3,1,3,4,3,63,8,3,11,3,12,3,64,1,3,1,3,1,4,1,4,
-        3,4,71,8,4,1,4,1,4,1,5,1,5,1,5,5,5,78,8,5,10,5,12,5,81,9,5,1,6,1,
-        6,3,6,85,8,6,1,6,1,6,1,7,1,7,1,7,5,7,92,8,7,10,7,12,7,95,9,7,1,8,
-        1,8,1,8,5,8,100,8,8,10,8,12,8,103,9,8,1,8,1,8,1,9,1,9,1,9,1,9,1,
-        9,5,9,112,8,9,10,9,12,9,115,9,9,1,9,1,9,1,10,1,10,1,10,5,10,122,
-        8,10,10,10,12,10,125,9,10,1,10,1,10,5,10,129,8,10,10,10,12,10,132,
-        9,10,1,10,1,10,1,10,1,10,5,10,138,8,10,10,10,12,10,141,9,10,1,10,
-        3,10,144,8,10,1,11,1,11,1,11,1,11,3,11,150,8,11,1,12,1,12,1,13,1,
-        13,1,13,1,13,1,14,1,14,1,14,1,14,5,14,162,8,14,10,14,12,14,165,9,
-        14,1,14,1,14,1,15,1,15,1,15,1,15,3,15,173,8,15,1,15,1,15,1,15,0,
-        0,16,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,0,1,1,0,23,24,185,
-        0,35,1,0,0,0,2,43,1,0,0,0,4,45,1,0,0,0,6,51,1,0,0,0,8,68,1,0,0,0,
-        10,74,1,0,0,0,12,82,1,0,0,0,14,88,1,0,0,0,16,96,1,0,0,0,18,106,1,
-        0,0,0,20,143,1,0,0,0,22,149,1,0,0,0,24,151,1,0,0,0,26,153,1,0,0,
-        0,28,157,1,0,0,0,30,168,1,0,0,0,32,34,3,2,1,0,33,32,1,0,0,0,34,37,
-        1,0,0,0,35,33,1,0,0,0,35,36,1,0,0,0,36,38,1,0,0,0,37,35,1,0,0,0,
-        38,39,3,16,8,0,39,40,5,0,0,1,40,1,1,0,0,0,41,44,3,20,10,0,42,44,
-        3,6,3,0,43,41,1,0,0,0,43,42,1,0,0,0,44,3,1,0,0,0,45,46,5,13,0,0,
-        46,47,5,24,0,0,47,48,5,15,0,0,48,49,5,24,0,0,49,50,5,14,0,0,50,5,
-        1,0,0,0,51,55,5,17,0,0,52,56,3,4,2,0,53,56,3,8,4,0,54,56,3,12,6,
-        0,55,52,1,0,0,0,55,53,1,0,0,0,55,54,1,0,0,0,56,57,1,0,0,0,57,58,
-        5,1,0,0,58,59,5,18,0,0,59,62,5,5,0,0,60,63,3,2,1,0,61,63,3,30,15,
-        0,62,60,1,0,0,0,62,61,1,0,0,0,63,64,1,0,0,0,64,62,1,0,0,0,64,65,
-        1,0,0,0,65,66,1,0,0,0,66,67,5,4,0,0,67,7,1,0,0,0,68,70,5,13,0,0,
-        69,71,3,10,5,0,70,69,1,0,0,0,70,71,1,0,0,0,71,72,1,0,0,0,72,73,5,
-        14,0,0,73,9,1,0,0,0,74,79,5,24,0,0,75,76,5,2,0,0,76,78,5,24,0,0,
-        77,75,1,0,0,0,78,81,1,0,0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,11,1,
-        0,0,0,81,79,1,0,0,0,82,84,5,13,0,0,83,85,3,14,7,0,84,83,1,0,0,0,
-        84,85,1,0,0,0,85,86,1,0,0,0,86,87,5,14,0,0,87,13,1,0,0,0,88,93,5,
-        23,0,0,89,90,5,2,0,0,90,92,5,23,0,0,91,89,1,0,0,0,92,95,1,0,0,0,
-        93,91,1,0,0,0,93,94,1,0,0,0,94,15,1,0,0,0,95,93,1,0,0,0,96,97,5,
-        6,0,0,97,101,5,5,0,0,98,100,3,18,9,0,99,98,1,0,0,0,100,103,1,0,0,
-        0,101,99,1,0,0,0,101,102,1,0,0,0,102,104,1,0,0,0,103,101,1,0,0,0,
-        104,105,5,4,0,0,105,17,1,0,0,0,106,107,5,9,0,0,107,113,5,5,0,0,108,
-        112,3,20,10,0,109,112,3,2,1,0,110,112,3,28,14,0,111,108,1,0,0,0,
-        111,109,1,0,0,0,111,110,1,0,0,0,112,115,1,0,0,0,113,111,1,0,0,0,
-        113,114,1,0,0,0,114,116,1,0,0,0,115,113,1,0,0,0,116,117,5,4,0,0,
-        117,19,1,0,0,0,118,119,5,10,0,0,119,123,5,5,0,0,120,122,3,26,13,
-        0,121,120,1,0,0,0,122,125,1,0,0,0,123,121,1,0,0,0,123,124,1,0,0,
-        0,124,130,1,0,0,0,125,123,1,0,0,0,126,129,3,22,11,0,127,129,3,20,
-        10,0,128,126,1,0,0,0,128,127,1,0,0,0,129,132,1,0,0,0,130,128,1,0,
-        0,0,130,131,1,0,0,0,131,133,1,0,0,0,132,130,1,0,0,0,133,144,5,4,
-        0,0,134,135,5,11,0,0,135,139,5,5,0,0,136,138,3,26,13,0,137,136,1,
-        0,0,0,138,141,1,0,0,0,139,137,1,0,0,0,139,140,1,0,0,0,140,142,1,
-        0,0,0,141,139,1,0,0,0,142,144,5,4,0,0,143,118,1,0,0,0,143,134,1,
-        0,0,0,144,21,1,0,0,0,145,150,3,24,12,0,146,150,3,2,1,0,147,150,5,
-        16,0,0,148,150,3,28,14,0,149,145,1,0,0,0,149,146,1,0,0,0,149,147,
-        1,0,0,0,149,148,1,0,0,0,150,23,1,0,0,0,151,152,7,0,0,0,152,25,1,
-        0,0,0,153,154,5,12,0,0,154,155,5,3,0,0,155,156,5,23,0,0,156,27,1,
-        0,0,0,157,158,5,7,0,0,158,163,5,5,0,0,159,162,3,6,3,0,160,162,3,
-        30,15,0,161,159,1,0,0,0,161,160,1,0,0,0,162,165,1,0,0,0,163,161,
-        1,0,0,0,163,164,1,0,0,0,164,166,1,0,0,0,165,163,1,0,0,0,166,167,
-        5,4,0,0,167,29,1,0,0,0,168,169,5,8,0,0,169,172,5,5,0,0,170,173,3,
-        24,12,0,171,173,5,16,0,0,172,170,1,0,0,0,172,171,1,0,0,0,173,174,
-        1,0,0,0,174,175,5,4,0,0,175,31,1,0,0,0,21,35,43,55,62,64,70,79,84,
-        93,101,111,113,123,128,130,139,143,149,161,163,172
+        2,14,7,14,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,3,
+        2,44,8,2,1,2,1,2,1,2,1,2,1,2,1,2,4,2,52,8,2,11,2,12,2,53,1,2,1,2,
+        1,3,1,3,3,3,60,8,3,1,3,1,3,1,4,1,4,1,4,5,4,67,8,4,10,4,12,4,70,9,
+        4,1,5,1,5,3,5,74,8,5,1,5,1,5,1,6,1,6,1,6,5,6,81,8,6,10,6,12,6,84,
+        9,6,1,7,1,7,1,7,5,7,89,8,7,10,7,12,7,92,9,7,1,7,1,7,1,8,1,8,1,8,
+        1,8,1,8,1,8,5,8,102,8,8,10,8,12,8,105,9,8,1,8,1,8,1,9,1,9,1,9,5,
+        9,112,8,9,10,9,12,9,115,9,9,1,9,5,9,118,8,9,10,9,12,9,121,9,9,1,
+        9,1,9,1,9,1,9,5,9,127,8,9,10,9,12,9,130,9,9,1,9,3,9,133,8,9,1,10,
+        1,10,1,10,1,10,1,10,3,10,140,8,10,1,11,1,11,1,12,1,12,1,12,1,12,
+        1,13,1,13,1,13,1,13,5,13,152,8,13,10,13,12,13,155,9,13,1,13,1,13,
+        1,14,1,14,1,14,1,14,3,14,163,8,14,1,14,1,14,1,14,0,0,15,0,2,4,6,
+        8,10,12,14,16,18,20,22,24,26,28,0,1,1,0,19,20,176,0,30,1,0,0,0,2,
+        33,1,0,0,0,4,39,1,0,0,0,6,57,1,0,0,0,8,63,1,0,0,0,10,71,1,0,0,0,
+        12,77,1,0,0,0,14,85,1,0,0,0,16,95,1,0,0,0,18,132,1,0,0,0,20,139,
+        1,0,0,0,22,141,1,0,0,0,24,143,1,0,0,0,26,147,1,0,0,0,28,158,1,0,
+        0,0,30,31,3,14,7,0,31,32,5,0,0,1,32,1,1,0,0,0,33,34,5,12,0,0,34,
+        35,5,19,0,0,35,36,5,1,0,0,36,37,5,19,0,0,37,38,5,13,0,0,38,3,1,0,
+        0,0,39,43,5,15,0,0,40,44,3,2,1,0,41,44,3,6,3,0,42,44,3,10,5,0,43,
+        40,1,0,0,0,43,41,1,0,0,0,43,42,1,0,0,0,44,45,1,0,0,0,45,46,5,2,0,
+        0,46,47,5,16,0,0,47,51,5,18,0,0,48,52,3,18,9,0,49,52,3,4,2,0,50,
+        52,3,28,14,0,51,48,1,0,0,0,51,49,1,0,0,0,51,50,1,0,0,0,52,53,1,0,
+        0,0,53,51,1,0,0,0,53,54,1,0,0,0,54,55,1,0,0,0,55,56,5,17,0,0,56,
+        5,1,0,0,0,57,59,5,12,0,0,58,60,3,8,4,0,59,58,1,0,0,0,59,60,1,0,0,
+        0,60,61,1,0,0,0,61,62,5,13,0,0,62,7,1,0,0,0,63,68,5,19,0,0,64,65,
+        5,3,0,0,65,67,5,19,0,0,66,64,1,0,0,0,67,70,1,0,0,0,68,66,1,0,0,0,
+        68,69,1,0,0,0,69,9,1,0,0,0,70,68,1,0,0,0,71,73,5,12,0,0,72,74,3,
+        12,6,0,73,72,1,0,0,0,73,74,1,0,0,0,74,75,1,0,0,0,75,76,5,13,0,0,
+        76,11,1,0,0,0,77,82,5,20,0,0,78,79,5,3,0,0,79,81,5,20,0,0,80,78,
+        1,0,0,0,81,84,1,0,0,0,82,80,1,0,0,0,82,83,1,0,0,0,83,13,1,0,0,0,
+        84,82,1,0,0,0,85,86,5,5,0,0,86,90,5,18,0,0,87,89,3,16,8,0,88,87,
+        1,0,0,0,89,92,1,0,0,0,90,88,1,0,0,0,90,91,1,0,0,0,91,93,1,0,0,0,
+        92,90,1,0,0,0,93,94,5,17,0,0,94,15,1,0,0,0,95,96,5,8,0,0,96,103,
+        5,18,0,0,97,102,3,18,9,0,98,102,3,18,9,0,99,102,3,4,2,0,100,102,
+        3,26,13,0,101,97,1,0,0,0,101,98,1,0,0,0,101,99,1,0,0,0,101,100,1,
+        0,0,0,102,105,1,0,0,0,103,101,1,0,0,0,103,104,1,0,0,0,104,106,1,
+        0,0,0,105,103,1,0,0,0,106,107,5,17,0,0,107,17,1,0,0,0,108,109,5,
+        9,0,0,109,113,5,18,0,0,110,112,3,24,12,0,111,110,1,0,0,0,112,115,
+        1,0,0,0,113,111,1,0,0,0,113,114,1,0,0,0,114,119,1,0,0,0,115,113,
+        1,0,0,0,116,118,3,20,10,0,117,116,1,0,0,0,118,121,1,0,0,0,119,117,
+        1,0,0,0,119,120,1,0,0,0,120,122,1,0,0,0,121,119,1,0,0,0,122,133,
+        5,17,0,0,123,124,5,10,0,0,124,128,5,18,0,0,125,127,3,24,12,0,126,
+        125,1,0,0,0,127,130,1,0,0,0,128,126,1,0,0,0,128,129,1,0,0,0,129,
+        131,1,0,0,0,130,128,1,0,0,0,131,133,5,17,0,0,132,108,1,0,0,0,132,
+        123,1,0,0,0,133,19,1,0,0,0,134,140,3,22,11,0,135,140,3,18,9,0,136,
+        140,3,4,2,0,137,140,5,14,0,0,138,140,3,26,13,0,139,134,1,0,0,0,139,
+        135,1,0,0,0,139,136,1,0,0,0,139,137,1,0,0,0,139,138,1,0,0,0,140,
+        21,1,0,0,0,141,142,7,0,0,0,142,23,1,0,0,0,143,144,5,11,0,0,144,145,
+        5,4,0,0,145,146,5,20,0,0,146,25,1,0,0,0,147,148,5,6,0,0,148,153,
+        5,18,0,0,149,152,3,4,2,0,150,152,3,28,14,0,151,149,1,0,0,0,151,150,
+        1,0,0,0,152,155,1,0,0,0,153,151,1,0,0,0,153,154,1,0,0,0,154,156,
+        1,0,0,0,155,153,1,0,0,0,156,157,5,17,0,0,157,27,1,0,0,0,158,159,
+        5,7,0,0,159,162,5,18,0,0,160,163,3,22,11,0,161,163,5,14,0,0,162,
+        160,1,0,0,0,162,161,1,0,0,0,163,164,1,0,0,0,164,165,5,17,0,0,165,
+        29,1,0,0,0,18,43,51,53,59,68,73,82,90,101,103,113,119,128,132,139,
+        151,153,162
     ]
 
 class RhtmlParser ( Parser ):
@@ -82,67 +79,60 @@ class RhtmlParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "'.'", "','", "'='", "'end'", "'do'", 
-                     "'html'", "<INVALID>", "'li'", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "'['", "']'", "'..'", "'iter'", 
-                     "'for'", "'each'", "'string[]'", "'int[]'", "'str'", 
-                     "'int'" ]
+    literalNames = [ "<INVALID>", "'..'", "'.'", "','", "'='", "'html'", 
+                     "<INVALID>", "'li'", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "<INVALID>", "'['", "']'", "'iter'", "'for'", "'each'", 
+                     "'end'", "'do'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "END", "DO", "HTML", "LIST", "LIST_ITEM", "MAIN_TAG", 
+                      "<INVALID>", "HTML", "LIST", "LIST_ITEM", "MAIN_TAG", 
                       "DOUBLE_TAG", "SINGLE_TAG", "TAG_OPTION", "LEFT", 
-                      "RIGHT", "DOTS", "ITER", "FOR", "EACH", "STRING_LIST_TYPE", 
-                      "INT_LIST_TYPE", "STRING_TYPE", "INT_TYPE", "STRING", 
-                      "INT", "WHITESPACE" ]
+                      "RIGHT", "ITER", "FOR", "EACH", "END", "DO", "INT", 
+                      "STRING", "WHITESPACE" ]
 
     RULE_prog = 0
-    RULE_ruby_expr = 1
-    RULE_range = 2
-    RULE_for_loop = 3
-    RULE_int_list = 4
-    RULE_int_elems = 5
-    RULE_string_list = 6
-    RULE_string_elems = 7
-    RULE_html_expr = 8
-    RULE_main_tag_expr = 9
-    RULE_tag_expr = 10
-    RULE_tag_inside = 11
-    RULE_string_int_inside = 12
-    RULE_tag_option_expr = 13
-    RULE_list = 14
-    RULE_list_inside = 15
+    RULE_range = 1
+    RULE_for_loop = 2
+    RULE_int_list = 3
+    RULE_int_elems = 4
+    RULE_string_list = 5
+    RULE_string_elems = 6
+    RULE_html_expr = 7
+    RULE_main_tag_expr = 8
+    RULE_tag_expr = 9
+    RULE_tag_inside = 10
+    RULE_string_int_inside = 11
+    RULE_tag_option_expr = 12
+    RULE_list = 13
+    RULE_list_inside = 14
 
-    ruleNames =  [ "prog", "ruby_expr", "range", "for_loop", "int_list", 
-                   "int_elems", "string_list", "string_elems", "html_expr", 
-                   "main_tag_expr", "tag_expr", "tag_inside", "string_int_inside", 
-                   "tag_option_expr", "list", "list_inside" ]
+    ruleNames =  [ "prog", "range", "for_loop", "int_list", "int_elems", 
+                   "string_list", "string_elems", "html_expr", "main_tag_expr", 
+                   "tag_expr", "tag_inside", "string_int_inside", "tag_option_expr", 
+                   "list", "list_inside" ]
 
     EOF = Token.EOF
     T__0=1
     T__1=2
     T__2=3
-    END=4
-    DO=5
-    HTML=6
-    LIST=7
-    LIST_ITEM=8
-    MAIN_TAG=9
-    DOUBLE_TAG=10
-    SINGLE_TAG=11
-    TAG_OPTION=12
-    LEFT=13
-    RIGHT=14
-    DOTS=15
-    ITER=16
-    FOR=17
-    EACH=18
-    STRING_LIST_TYPE=19
-    INT_LIST_TYPE=20
-    STRING_TYPE=21
-    INT_TYPE=22
-    STRING=23
-    INT=24
-    WHITESPACE=25
+    T__3=4
+    HTML=5
+    LIST=6
+    LIST_ITEM=7
+    MAIN_TAG=8
+    DOUBLE_TAG=9
+    SINGLE_TAG=10
+    TAG_OPTION=11
+    LEFT=12
+    RIGHT=13
+    ITER=14
+    FOR=15
+    EACH=16
+    END=17
+    DO=18
+    INT=19
+    STRING=20
+    WHITESPACE=21
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -167,13 +157,6 @@ class RhtmlParser ( Parser ):
         def EOF(self):
             return self.getToken(RhtmlParser.EOF, 0)
 
-        def ruby_expr(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(RhtmlParser.Ruby_exprContext)
-            else:
-                return self.getTypedRuleContext(RhtmlParser.Ruby_exprContext,i)
-
-
         def getRuleIndex(self):
             return RhtmlParser.RULE_prog
 
@@ -185,12 +168,6 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitProg" ):
                 listener.exitProg(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitProg" ):
-                return visitor.visitProg(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
@@ -198,88 +175,12 @@ class RhtmlParser ( Parser ):
 
         localctx = RhtmlParser.ProgContext(self, self._ctx, self.state)
         self.enterRule(localctx, 0, self.RULE_prog)
-        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 35
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 134144) != 0:
-                self.state = 32
-                self.ruby_expr()
-                self.state = 37
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
-            self.state = 38
+            self.state = 30
             self.html_expr()
-            self.state = 39
+            self.state = 31
             self.match(RhtmlParser.EOF)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class Ruby_exprContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def tag_expr(self):
-            return self.getTypedRuleContext(RhtmlParser.Tag_exprContext,0)
-
-
-        def for_loop(self):
-            return self.getTypedRuleContext(RhtmlParser.For_loopContext,0)
-
-
-        def getRuleIndex(self):
-            return RhtmlParser.RULE_ruby_expr
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterRuby_expr" ):
-                listener.enterRuby_expr(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitRuby_expr" ):
-                listener.exitRuby_expr(self)
-
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitRuby_expr" ):
-                return visitor.visitRuby_expr(self)
-            else:
-                return visitor.visitChildren(self)
-
-
-
-
-    def ruby_expr(self):
-
-        localctx = RhtmlParser.Ruby_exprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 2, self.RULE_ruby_expr)
-        try:
-            self.state = 43
-            self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [10, 11]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 41
-                self.tag_expr()
-                pass
-            elif token in [17]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 42
-                self.for_loop()
-                pass
-            else:
-                raise NoViableAltException(self)
-
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -305,9 +206,6 @@ class RhtmlParser ( Parser ):
             else:
                 return self.getToken(RhtmlParser.INT, i)
 
-        def DOTS(self):
-            return self.getToken(RhtmlParser.DOTS, 0)
-
         def RIGHT(self):
             return self.getToken(RhtmlParser.RIGHT, 0)
 
@@ -322,30 +220,24 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitRange" ):
                 listener.exitRange(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitRange" ):
-                return visitor.visitRange(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def range_(self):
 
         localctx = RhtmlParser.RangeContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_range)
+        self.enterRule(localctx, 2, self.RULE_range)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 45
+            self.state = 33
             self.match(RhtmlParser.LEFT)
-            self.state = 46
+            self.state = 34
             self.match(RhtmlParser.INT)
-            self.state = 47
-            self.match(RhtmlParser.DOTS)
-            self.state = 48
+            self.state = 35
+            self.match(RhtmlParser.T__0)
+            self.state = 36
             self.match(RhtmlParser.INT)
-            self.state = 49
+            self.state = 37
             self.match(RhtmlParser.RIGHT)
         except RecognitionException as re:
             localctx.exception = re
@@ -387,11 +279,18 @@ class RhtmlParser ( Parser ):
             return self.getTypedRuleContext(RhtmlParser.String_listContext,0)
 
 
-        def ruby_expr(self, i:int=None):
+        def tag_expr(self, i:int=None):
             if i is None:
-                return self.getTypedRuleContexts(RhtmlParser.Ruby_exprContext)
+                return self.getTypedRuleContexts(RhtmlParser.Tag_exprContext)
             else:
-                return self.getTypedRuleContext(RhtmlParser.Ruby_exprContext,i)
+                return self.getTypedRuleContext(RhtmlParser.Tag_exprContext,i)
+
+
+        def for_loop(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(RhtmlParser.For_loopContext)
+            else:
+                return self.getTypedRuleContext(RhtmlParser.For_loopContext,i)
 
 
         def list_inside(self, i:int=None):
@@ -412,74 +311,72 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitFor_loop" ):
                 listener.exitFor_loop(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitFor_loop" ):
-                return visitor.visitFor_loop(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def for_loop(self):
 
         localctx = RhtmlParser.For_loopContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_for_loop)
+        self.enterRule(localctx, 4, self.RULE_for_loop)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 51
+            self.state = 39
             self.match(RhtmlParser.FOR)
-            self.state = 55
+            self.state = 43
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,2,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,0,self._ctx)
             if la_ == 1:
-                self.state = 52
+                self.state = 40
                 self.range_()
                 pass
 
             elif la_ == 2:
-                self.state = 53
+                self.state = 41
                 self.int_list()
                 pass
 
             elif la_ == 3:
-                self.state = 54
+                self.state = 42
                 self.string_list()
                 pass
 
 
-            self.state = 57
-            self.match(RhtmlParser.T__0)
-            self.state = 58
+            self.state = 45
+            self.match(RhtmlParser.T__1)
+            self.state = 46
             self.match(RhtmlParser.EACH)
-            self.state = 59
+            self.state = 47
             self.match(RhtmlParser.DO)
-            self.state = 62 
+            self.state = 51 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 62
+                self.state = 51
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
-                if token in [10, 11, 17]:
-                    self.state = 60
-                    self.ruby_expr()
+                if token in [9, 10]:
+                    self.state = 48
+                    self.tag_expr()
                     pass
-                elif token in [8]:
-                    self.state = 61
+                elif token in [15]:
+                    self.state = 49
+                    self.for_loop()
+                    pass
+                elif token in [7]:
+                    self.state = 50
                     self.list_inside()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 64 
+                self.state = 53 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 134400) != 0):
+                if not (((_la) & ~0x3f) == 0 and ((1 << _la) & 34432) != 0):
                     break
 
-            self.state = 66
+            self.state = 55
             self.match(RhtmlParser.END)
         except RecognitionException as re:
             localctx.exception = re
@@ -518,33 +415,27 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitInt_list" ):
                 listener.exitInt_list(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitInt_list" ):
-                return visitor.visitInt_list(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def int_list(self):
 
         localctx = RhtmlParser.Int_listContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_int_list)
+        self.enterRule(localctx, 6, self.RULE_int_list)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 68
+            self.state = 57
             self.match(RhtmlParser.LEFT)
-            self.state = 70
+            self.state = 59
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==24:
-                self.state = 69
+            if _la==19:
+                self.state = 58
                 self.int_elems()
 
 
-            self.state = 72
+            self.state = 61
             self.match(RhtmlParser.RIGHT)
         except RecognitionException as re:
             localctx.exception = re
@@ -579,33 +470,27 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitInt_elems" ):
                 listener.exitInt_elems(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitInt_elems" ):
-                return visitor.visitInt_elems(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def int_elems(self):
 
         localctx = RhtmlParser.Int_elemsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_int_elems)
+        self.enterRule(localctx, 8, self.RULE_int_elems)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 74
+            self.state = 63
             self.match(RhtmlParser.INT)
-            self.state = 79
+            self.state = 68
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==2:
-                self.state = 75
-                self.match(RhtmlParser.T__1)
-                self.state = 76
+            while _la==3:
+                self.state = 64
+                self.match(RhtmlParser.T__2)
+                self.state = 65
                 self.match(RhtmlParser.INT)
-                self.state = 81
+                self.state = 70
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -646,33 +531,27 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitString_list" ):
                 listener.exitString_list(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitString_list" ):
-                return visitor.visitString_list(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def string_list(self):
 
         localctx = RhtmlParser.String_listContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_string_list)
+        self.enterRule(localctx, 10, self.RULE_string_list)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 82
+            self.state = 71
             self.match(RhtmlParser.LEFT)
-            self.state = 84
+            self.state = 73
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if _la==23:
-                self.state = 83
+            if _la==20:
+                self.state = 72
                 self.string_elems()
 
 
-            self.state = 86
+            self.state = 75
             self.match(RhtmlParser.RIGHT)
         except RecognitionException as re:
             localctx.exception = re
@@ -707,33 +586,27 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitString_elems" ):
                 listener.exitString_elems(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitString_elems" ):
-                return visitor.visitString_elems(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def string_elems(self):
 
         localctx = RhtmlParser.String_elemsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_string_elems)
+        self.enterRule(localctx, 12, self.RULE_string_elems)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 88
+            self.state = 77
             self.match(RhtmlParser.STRING)
-            self.state = 93
+            self.state = 82
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==2:
-                self.state = 89
-                self.match(RhtmlParser.T__1)
-                self.state = 90
+            while _la==3:
+                self.state = 78
+                self.match(RhtmlParser.T__2)
+                self.state = 79
                 self.match(RhtmlParser.STRING)
-                self.state = 95
+                self.state = 84
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -780,37 +653,31 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitHtml_expr" ):
                 listener.exitHtml_expr(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitHtml_expr" ):
-                return visitor.visitHtml_expr(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def html_expr(self):
 
         localctx = RhtmlParser.Html_exprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_html_expr)
+        self.enterRule(localctx, 14, self.RULE_html_expr)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 96
+            self.state = 85
             self.match(RhtmlParser.HTML)
-            self.state = 97
+            self.state = 86
             self.match(RhtmlParser.DO)
-            self.state = 101
+            self.state = 90
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==9:
-                self.state = 98
+            while _la==8:
+                self.state = 87
                 self.main_tag_expr()
-                self.state = 103
+                self.state = 92
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 104
+            self.state = 93
             self.match(RhtmlParser.END)
         except RecognitionException as re:
             localctx.exception = re
@@ -844,11 +711,11 @@ class RhtmlParser ( Parser ):
                 return self.getTypedRuleContext(RhtmlParser.Tag_exprContext,i)
 
 
-        def ruby_expr(self, i:int=None):
+        def for_loop(self, i:int=None):
             if i is None:
-                return self.getTypedRuleContexts(RhtmlParser.Ruby_exprContext)
+                return self.getTypedRuleContexts(RhtmlParser.For_loopContext)
             else:
-                return self.getTypedRuleContext(RhtmlParser.Ruby_exprContext,i)
+                return self.getTypedRuleContext(RhtmlParser.For_loopContext,i)
 
 
         def list_(self, i:int=None):
@@ -869,54 +736,53 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitMain_tag_expr" ):
                 listener.exitMain_tag_expr(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitMain_tag_expr" ):
-                return visitor.visitMain_tag_expr(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def main_tag_expr(self):
 
         localctx = RhtmlParser.Main_tag_exprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_main_tag_expr)
+        self.enterRule(localctx, 16, self.RULE_main_tag_expr)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 106
+            self.state = 95
             self.match(RhtmlParser.MAIN_TAG)
-            self.state = 107
+            self.state = 96
             self.match(RhtmlParser.DO)
-            self.state = 113
+            self.state = 103
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 134272) != 0:
-                self.state = 111
+            while ((_la) & ~0x3f) == 0 and ((1 << _la) & 34368) != 0:
+                self.state = 101
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
                 if la_ == 1:
-                    self.state = 108
+                    self.state = 97
                     self.tag_expr()
                     pass
 
                 elif la_ == 2:
-                    self.state = 109
-                    self.ruby_expr()
+                    self.state = 98
+                    self.tag_expr()
                     pass
 
                 elif la_ == 3:
-                    self.state = 110
+                    self.state = 99
+                    self.for_loop()
+                    pass
+
+                elif la_ == 4:
+                    self.state = 100
                     self.list_()
                     pass
 
 
-                self.state = 115
+                self.state = 105
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 116
+            self.state = 106
             self.match(RhtmlParser.END)
         except RecognitionException as re:
             localctx.exception = re
@@ -957,13 +823,6 @@ class RhtmlParser ( Parser ):
                 return self.getTypedRuleContext(RhtmlParser.Tag_insideContext,i)
 
 
-        def tag_expr(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(RhtmlParser.Tag_exprContext)
-            else:
-                return self.getTypedRuleContext(RhtmlParser.Tag_exprContext,i)
-
-
         def SINGLE_TAG(self):
             return self.getToken(RhtmlParser.SINGLE_TAG, 0)
 
@@ -978,82 +837,64 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitTag_expr" ):
                 listener.exitTag_expr(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitTag_expr" ):
-                return visitor.visitTag_expr(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def tag_expr(self):
 
         localctx = RhtmlParser.Tag_exprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_tag_expr)
+        self.enterRule(localctx, 18, self.RULE_tag_expr)
         self._la = 0 # Token type
         try:
-            self.state = 143
+            self.state = 132
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [10]:
+            if token in [9]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 118
+                self.state = 108
                 self.match(RhtmlParser.DOUBLE_TAG)
-                self.state = 119
+                self.state = 109
                 self.match(RhtmlParser.DO)
-                self.state = 123
+                self.state = 113
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==12:
-                    self.state = 120
+                while _la==11:
+                    self.state = 110
                     self.tag_option_expr()
-                    self.state = 125
+                    self.state = 115
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 130
+                self.state = 119
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while ((_la) & ~0x3f) == 0 and ((1 << _la) & 25365632) != 0:
-                    self.state = 128
-                    self._errHandler.sync(self)
-                    la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
-                    if la_ == 1:
-                        self.state = 126
-                        self.tag_inside()
-                        pass
-
-                    elif la_ == 2:
-                        self.state = 127
-                        self.tag_expr()
-                        pass
-
-
-                    self.state = 132
+                while ((_la) & ~0x3f) == 0 and ((1 << _la) & 1623616) != 0:
+                    self.state = 116
+                    self.tag_inside()
+                    self.state = 121
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 133
+                self.state = 122
                 self.match(RhtmlParser.END)
                 pass
-            elif token in [11]:
+            elif token in [10]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 134
+                self.state = 123
                 self.match(RhtmlParser.SINGLE_TAG)
-                self.state = 135
+                self.state = 124
                 self.match(RhtmlParser.DO)
-                self.state = 139
+                self.state = 128
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==12:
-                    self.state = 136
+                while _la==11:
+                    self.state = 125
                     self.tag_option_expr()
-                    self.state = 141
+                    self.state = 130
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 142
+                self.state = 131
                 self.match(RhtmlParser.END)
                 pass
             else:
@@ -1079,8 +920,12 @@ class RhtmlParser ( Parser ):
             return self.getTypedRuleContext(RhtmlParser.String_int_insideContext,0)
 
 
-        def ruby_expr(self):
-            return self.getTypedRuleContext(RhtmlParser.Ruby_exprContext,0)
+        def tag_expr(self):
+            return self.getTypedRuleContext(RhtmlParser.Tag_exprContext,0)
+
+
+        def for_loop(self):
+            return self.getTypedRuleContext(RhtmlParser.For_loopContext,0)
 
 
         def ITER(self):
@@ -1101,38 +946,36 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitTag_inside" ):
                 listener.exitTag_inside(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitTag_inside" ):
-                return visitor.visitTag_inside(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def tag_inside(self):
 
         localctx = RhtmlParser.Tag_insideContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_tag_inside)
+        self.enterRule(localctx, 20, self.RULE_tag_inside)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 149
+            self.state = 139
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [23, 24]:
-                self.state = 145
+            if token in [19, 20]:
+                self.state = 134
                 self.string_int_inside()
                 pass
-            elif token in [10, 11, 17]:
-                self.state = 146
-                self.ruby_expr()
+            elif token in [9, 10]:
+                self.state = 135
+                self.tag_expr()
                 pass
-            elif token in [16]:
-                self.state = 147
+            elif token in [15]:
+                self.state = 136
+                self.for_loop()
+                pass
+            elif token in [14]:
+                self.state = 137
                 self.match(RhtmlParser.ITER)
                 pass
-            elif token in [7]:
-                self.state = 148
+            elif token in [6]:
+                self.state = 138
                 self.list_()
                 pass
             else:
@@ -1171,25 +1014,19 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitString_int_inside" ):
                 listener.exitString_int_inside(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitString_int_inside" ):
-                return visitor.visitString_int_inside(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def string_int_inside(self):
 
         localctx = RhtmlParser.String_int_insideContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_string_int_inside)
+        self.enterRule(localctx, 22, self.RULE_string_int_inside)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 151
+            self.state = 141
             _la = self._input.LA(1)
-            if not(_la==23 or _la==24):
+            if not(_la==19 or _la==20):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1227,26 +1064,20 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitTag_option_expr" ):
                 listener.exitTag_option_expr(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitTag_option_expr" ):
-                return visitor.visitTag_option_expr(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def tag_option_expr(self):
 
         localctx = RhtmlParser.Tag_option_exprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_tag_option_expr)
+        self.enterRule(localctx, 24, self.RULE_tag_option_expr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 153
+            self.state = 143
             self.match(RhtmlParser.TAG_OPTION)
-            self.state = 154
-            self.match(RhtmlParser.T__2)
-            self.state = 155
+            self.state = 144
+            self.match(RhtmlParser.T__3)
+            self.state = 145
             self.match(RhtmlParser.STRING)
         except RecognitionException as re:
             localctx.exception = re
@@ -1298,49 +1129,43 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitList" ):
                 listener.exitList(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitList" ):
-                return visitor.visitList(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def list_(self):
 
         localctx = RhtmlParser.ListContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_list)
+        self.enterRule(localctx, 26, self.RULE_list)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 157
+            self.state = 147
             self.match(RhtmlParser.LIST)
-            self.state = 158
+            self.state = 148
             self.match(RhtmlParser.DO)
-            self.state = 163
+            self.state = 153
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==8 or _la==17:
-                self.state = 161
+            while _la==7 or _la==15:
+                self.state = 151
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
-                if token in [17]:
-                    self.state = 159
+                if token in [15]:
+                    self.state = 149
                     self.for_loop()
                     pass
-                elif token in [8]:
-                    self.state = 160
+                elif token in [7]:
+                    self.state = 150
                     self.list_inside()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 165
+                self.state = 155
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 166
+            self.state = 156
             self.match(RhtmlParser.END)
         except RecognitionException as re:
             localctx.exception = re
@@ -1385,40 +1210,34 @@ class RhtmlParser ( Parser ):
             if hasattr( listener, "exitList_inside" ):
                 listener.exitList_inside(self)
 
-        def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitList_inside" ):
-                return visitor.visitList_inside(self)
-            else:
-                return visitor.visitChildren(self)
-
 
 
 
     def list_inside(self):
 
         localctx = RhtmlParser.List_insideContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_list_inside)
+        self.enterRule(localctx, 28, self.RULE_list_inside)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 168
+            self.state = 158
             self.match(RhtmlParser.LIST_ITEM)
-            self.state = 169
+            self.state = 159
             self.match(RhtmlParser.DO)
-            self.state = 172
+            self.state = 162
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [23, 24]:
-                self.state = 170
+            if token in [19, 20]:
+                self.state = 160
                 self.string_int_inside()
                 pass
-            elif token in [16]:
-                self.state = 171
+            elif token in [14]:
+                self.state = 161
                 self.match(RhtmlParser.ITER)
                 pass
             else:
                 raise NoViableAltException(self)
 
-            self.state = 174
+            self.state = 164
             self.match(RhtmlParser.END)
         except RecognitionException as re:
             localctx.exception = re

@@ -17,15 +17,6 @@ class RhtmlListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by RhtmlParser#ruby_expr.
-    def enterRuby_expr(self, ctx:RhtmlParser.Ruby_exprContext):
-        pass
-
-    # Exit a parse tree produced by RhtmlParser#ruby_expr.
-    def exitRuby_expr(self, ctx:RhtmlParser.Ruby_exprContext):
-        pass
-
-
     # Enter a parse tree produced by RhtmlParser#range.
     def enterRange(self, ctx:RhtmlParser.RangeContext):
         pass
